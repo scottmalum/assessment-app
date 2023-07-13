@@ -1,0 +1,47 @@
+{
+  "name": "exam-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node src/seeders/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon src/index",
+    "start": "node src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "africastalking": "^0.5.5",
+    "app-root-path": "^3.1.0",
+    "aws-sdk": "^2.1242.0",
+    "axios": "^1.1.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "form-data": "^4.0.0",
+    "generate-password": "^1.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "locutus": "^2.0.16",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.0",
+    "mongoose-aggregate-paginate-v2": "^1.0.6",
+    "mongoose-paginate-v2": "^1.7.1",
+    "mongoose-seed": "^0.6.0",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.5",
+    "swagger-ui-express": "^4.1.6",
+    "uuid": "^9.0.0",
+    "joi": "^17.7.0",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
